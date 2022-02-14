@@ -1,0 +1,134 @@
+<<<<<<< HEAD
+#header {
+       background-color: #E8C8CB;    
+}
+#header table{
+    width: 100%;
+}
+nav{
+    padding: right 16px;
+    text-align: right;
+}
+a{
+margin-right: auto;
+text-align:right;
+text-decoration: none;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    
+}
+#body{
+    background-color: #fdeef6;
+}
+#heading {
+    color: #0d294d;
+    text-align:center;
+    font-family: Cinzel; 
+}
+#s-heading{
+    color: rgb(8, 83, 145)
+    font-family; 
+}
+#text{
+    font-family: Bad Script;
+
+}
+.image{
+    width: 250px; 
+    height:350px;
+    border: #0d294d;
+    border-radius: 20px;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    font-size: medium;
+}
+.image2{
+    width: 250px;
+    height:250px;
+    border: 30px;
+    border-color: #0d294d;
+}
+#footer{
+    background-color: #E8C8CB;
+
+}
+
+#footer table{
+    margin-right: 58px;
+    text-align:right;
+    word-spacing: 35px;
+=======
+#header {
+       background-color: #E8C8CB;    
+}
+#header table{
+    width: 100%;
+}
+nav{
+    padding: right 16px;
+    text-align: right;
+}
+a{
+margin-right: auto;
+text-align:right;
+text-decoration: none;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+    
+}
+#body{
+    background-color: #fdeef6;
+}
+#heading {
+    color: #0d294d;
+    text-align:center;
+    font-family: Cinzel; 
+}
+#s-heading{
+    color: rgb(8, 83, 145)
+    font-family; 
+}
+#text{
+    font-family: Bad Script;
+
+}
+.image{
+    width: 250px; 
+    height:350px;
+    border: #0d294d;
+    border-radius: 20px;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 12px;
+    font-size: medium;
+}
+.image2{
+    width: 250px;
+    height:250px;
+    border: 30px;
+    border-color: #0d294d;
+}
+#footer{
+    background-color: #E8C8CB;
+
+}
+
+#footer table{
+    margin-right: 58px;
+    text-align:right;
+    word-spacing: 35px;
+>>>>>>> 963e73a334de05bf7346fa8637dd9ff265466c16
+}

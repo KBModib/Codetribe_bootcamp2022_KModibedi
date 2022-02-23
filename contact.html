@@ -15,7 +15,7 @@
 
     </head>
     
- <body>
+ <main>
     
     <div>
         <header id="header">
@@ -40,11 +40,11 @@
     </div>
     <body id="body">
 
-        <h2 id="heading">How to reach me</h2>
+        <h2 id="heading" id="contact-head">How to reach me</h2>
         <p id="text">
             I currently reside in <strong>Soweto, South Africa</strong> and I am willing to relocate for work.
        </p>
-        <table>
+        <table id="contact">
             <tr>
                 <td id="text">Phone number</td>
                 <td>
@@ -60,7 +60,7 @@
             <tr>
                 <td id="text">LinkedIn profile</td>
                 <td>
-                    <a href="https://www.linkedin.com/in/kamogelo-modibedi-908727143?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEMb%2FnrhNSJ6OqAuWP58rFA%3D%3D">Kamogelo Modibedi Profile</a>
+                    <a id="Linked" href="https://www.linkedin.com/in/kamogelo-modibedi-908727143?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEMb%2FnrhNSJ6OqAuWP58rFA%3D%3D">Kamogelo Modibedi Profile</a>
                 </td>
                 </tr>
                 <tr>
@@ -69,14 +69,19 @@
                     <a href="https://twitter.com/KBModi07">@KBModi07</a>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <button onclick="window.print">Save details</button>
+                </td>
+            </tr>
              
         </table>
 
         <h3 id="heading">
             Questions and Comments
         </h3>
-        <form action="/action_page.php">
-            <table>
+        <form action="https://formspree.io/f/mjvlwzar" method="post">
+            <table id="q&comms">
         <tr>
             <td id="text">
                 <label for="first name"> First name:</label>
@@ -91,8 +96,8 @@
         </tr>
         <tr>
             <td id="text">
-                <label for="email address"> Email address:</label>
-                <input type="text" id="email address" name="email address">
+                <label for="email"> Email address:</label>
+                <input type="text" id="email" name="email address">
             </td>
         </tr>
         <tr>
@@ -102,12 +107,11 @@
         </tr>
         <tr>
             <td>
-                <input type="submit" value="Submit">
+                <button type="submit" value="Submit">Submit</button>
             </td>
         </tr>
     </table>
     </form>
-
     </body>
 </main>
 
@@ -126,4 +130,15 @@
     </footer>
 </div>
 
+<script>
+  
+           let userContact ={
+           phoneNumber = '0648679973',
+           email = 'kmodibedi@outlook.com',
+           LinkedIn_Profile = 'Linked',
+           twitter = '@kbmodi07',
+    }
+    console.log(userContact); 
+ 
+ </script>
 </html>

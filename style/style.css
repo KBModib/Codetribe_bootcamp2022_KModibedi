@@ -1,134 +1,71 @@
-<<<<<<< HEAD
-#header {
-       background-color: #E8C8CB;    
+body{
+    background-color: #F3EBEB;
 }
-#header table{
-    width: 100%;
+.header{
+    display: flex;
 }
-nav{
-    padding: right 16px;
-    text-align: right;
-}
-a{
-margin-right: auto;
-text-align:right;
-text-decoration: none;
-}
-.logo{
-    width: 10%;
-    height: 10%;
-    
-}
-#body{
-    background-color: #fdeef6;
-}
-#heading {
-    color: #0d294d;
-    text-align:center;
-    font-family: Cinzel; 
-}
-#s-heading{
-    color: rgb(8, 83, 145)
-    font-family; 
-}
-#text{
-    font-family: Bad Script;
-
-}
-.image{
-    width: 250px; 
-    height:350px;
-    border: #0d294d;
-    border-radius: 20px;
-}
-.btn{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 12px;
-    font-size: medium;
-}
-.image2{
-    width: 250px;
-    height:250px;
-    border: 30px;
-    border-color: #0d294d;
-}
-#footer{
-    background-color: #E8C8CB;
-
-}
-
-#footer table{
-    margin-right: 58px;
-    text-align:right;
-    word-spacing: 35px;
-=======
-#header {
-       background-color: #E8C8CB;    
-}
-#header table{
-    width: 100%;
+.header img{
+    margin-left: 10px;
+    width: 120px;
 }
 nav{
-    padding: right 16px;
-    text-align: right;
+    float: right;
+    margin-left: 600px;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 550;
+    font-size: 13pt;
 }
-a{
-margin-right: auto;
-text-align:right;
-text-decoration: none;
+nav a{
+    justify-content: right;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #363535;
 }
-.logo{
-    width: 10%;
-    height: 10%;
-    
+.hero{
+    display: flex;
+    padding: 100px;
 }
-#body{
-    background-color: #fdeef6;
+.hero img{
+    border-radius: 3%;
+    box-shadow: 12px 12px 2px 1px #8C8484;
 }
-#heading {
-    color: #0d294d;
-    text-align:center;
-    font-family: Cinzel; 
+.hero span{
+   margin: 100px;
+   font-size: 24pt;
+   font-family: 'Playfair Display', serif;
+   color: #363535;
 }
-#s-heading{
-    color: rgb(8, 83, 145)
-    font-family; 
+.hero a {
+    text-decoration: none;
+    color: #8C8484;
 }
-#text{
-    font-family: Bad Script;
-
+.hero button{
+    border: transparent;
+    border-radius: 10px;
+    background-color: #918C8C;
+    color: whitesmoke;
+    width: 150px;
+    height: 40px;
+    font-size: 15pt;
+    font-style: Raleway, sans-serif;
 }
-.image{
-    width: 250px; 
-    height:350px;
-    border: #0d294d;
-    border-radius: 20px;
+.about{
+    background-color: blue;
 }
-.btn{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 12px;
-    font-size: medium;
+.portfolio{
+    background-color: yellow;
 }
-.image2{
-    width: 250px;
-    height:250px;
-    border: 30px;
-    border-color: #0d294d;
+.services{
+    background-color: purple;
 }
-#footer{
-    background-color: #E8C8CB;
-
+.experience{
+    background-color:pink;
 }
-
-#footer table{
-    margin-right: 58px;
-    text-align:right;
-    word-spacing: 35px;
->>>>>>> 963e73a334de05bf7346fa8637dd9ff265466c16
+.contact{
+    background-color: coral;
+    display: flex;
+}
+footer{
+    background-color: grey;
 }
